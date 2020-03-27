@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="BOOK NAME"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Author:"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/textView"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_toRightOf="@id/author"
+            android:text="Author"
+            android:textSize="15sp" />
+
+
+
+
+        <TextView
+            android:id="@+id/rackno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Rack No:"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/author"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@id/rackno"
+            android:text=" Racknno"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Shelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginLeft="52dp"
+
+            android:layout_toRightOf="@id/textView4"
+            android:text=" Shelf:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Shelf"
+            android:text="shelf"
+            android:layout_below="@id/textView2"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+            android:text=" Section:"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/textView2"
+            android:layout_toRightOf="@id/textView5"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/section"
+            android:text="section"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/issuetype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rackno"
+            android:text=" Issue Type:"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/issuetype"
+            android:text="Issue Type"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="00dp"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
